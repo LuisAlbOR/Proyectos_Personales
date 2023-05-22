@@ -1,0 +1,34 @@
+<canvas width="800" height="200"></canvas>
+
+<input>
+<button>Aceptar</button>
+<script>
+    var input = document.querySelector("input");
+    input.focus();
+
+    function verificar(){
+        imprimirCuadroVerde(parseInt(input.value));
+    }
+
+    function imprimirCuadroVerde(cantidadVeces){
+        var moverX = 0;
+        for(var i = 0; i < cantidadVeces; i++){
+            var pantalla = document.querySelector("canvas");
+            var pincel = pantalla.getContext("2d");
+
+            pincel.fillStyle = "green";
+            pincel.fillRect(moverX,50,50,50);
+            pincel.strokeStyle = "black";//se define el color del borde
+            pincel.strokeRect((moverX),50,50,50);//se define la ubicación y tamaño del borde
+            
+            moverX+=50;
+        }     
+        
+        input.value = "";
+        input.focus();
+    }
+
+    var btnCantidad = document.querySelector("button");
+    btnCantidad.onclick = verificar;
+    //var pedirCantidad = alert("Cuantas veces se repite el cuadro");
+</script>
