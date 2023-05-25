@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/modelo/usuario/UsuarioDAOImp_Nuevo.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/modelo/usuario/UsuarioDAO_ImpActualizar.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/modelo/usuario/Usuario_DAOImp_Eliminar.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/vista/usuario/InterActualizarUsuario.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/vista/usuario/InterNuevoUsuario.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/modelo/usuario/UsuarioDAO_ObteneImp.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/controlador/usuario/Ctrl_Usuario_Nuevo.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/modelo/usuario/usuarioDAO_ObtenerUsuarios.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/modelo/usuario/UsuarioDAO_Actualizar.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/vista/usuario/InterVisualizarUsuario.java</file>
+            <file>file:/C:/Users/ortiz/OneDrive/Escritorio/sistema_venta/src/modelo/usuario/usuarioDAO_Nuevo.java</file>
+        </group>
+    </open-files>
+</project-private>
