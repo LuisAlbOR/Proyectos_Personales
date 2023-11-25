@@ -1,4 +1,4 @@
-package Proyecto_Java_DesdeCero;
+
 
 import javax.swing.*;
 import java.awt.event.*;
@@ -57,7 +57,7 @@ public class Bienvenida extends JFrame implements ActionListener {
     }
 
     public void actionPerformed(ActionEvent evento) {
-        if (evento.getSource() == boton1) {
+       /* if (evento.getSource() == boton1) {
             Nombre = textf1.getText().trim();
                 if(Nombre.equals("")) {
                     JOptionPane.showMessageDialog(null,"Ingrese un nombre");
@@ -69,7 +69,7 @@ public class Bienvenida extends JFrame implements ActionListener {
                     output.setLocationRelativeTo(null);
                     this.setVisible(false);
                 }
-        }
+        }*/
     }
 
     public static void main(String args[]) {
