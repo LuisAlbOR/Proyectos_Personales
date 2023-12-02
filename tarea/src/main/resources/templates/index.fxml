@@ -4,13 +4,20 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.unach.tarea.controlador.IndexControlador">
    <children>
-      <Label layoutX="192.0" layoutY="36.0" text="Sistema de tareas">
+      <Label layoutX="161.0" layoutY="38.0" text="Sistema de tareas" textFill="#2352a4">
          <font>
-            <Font size="28.0" />
+            <Font name="Arial Black" size="28.0" />
          </font>
       </Label>
+      <TableView fx:id="tareaTabla" layoutX="144.0" layoutY="116.0" prefHeight="194.0" prefWidth="390.0">
+        <columns>
+          <TableColumn fx:id="idTareaColumna" prefWidth="31.0" text="ID" />
+          <TableColumn fx:id="nombreTareaColumna" prefWidth="122.0" text="Tarea" />
+            <TableColumn fx:id="responsableColumna" prefWidth="167.0" text="Responsable" />
+            <TableColumn fx:id="estatusColumna" prefWidth="69.0" text="Estatus" />
+        </columns>
+      </TableView>
    </children>
 </AnchorPane>
